@@ -6,7 +6,8 @@ metadata:
 spec:
   accessModes:
     - ReadWriteOnce
+  storageClassName: manual
+  volumeName: mongo-pv
   resources:
     requests:
       storage: 1Gi
-  storageClassName: standard
